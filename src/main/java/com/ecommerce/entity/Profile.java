@@ -21,6 +21,6 @@ public class Profile {
 	private String firstName;
 	private String lastname;
 	
-	@OneToOne(mappedBy = "profile")
-	private User userAuth;
+//	@OneToOne(mappedBy = "profile")
+//	private User userAuth;
 }

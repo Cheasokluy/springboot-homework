@@ -33,17 +33,17 @@ public class User {
 	private String username;
 	private String paasword;
 	
-	@OneToOne
-	private Profile profile;
-	
-	@OneToMany(mappedBy = "user")
-	private List<Post> posts = new ArrayList<>();
-	
-	@ManyToMany
-	@JoinTable(
-			name = "user_group",
-			joinColumns = @JoinColumn(name="user_id"),
-			inverseJoinColumns = @JoinColumn(name="group_id")
-	)
-	private Set<Group> groups = new HashSet<>();
+//	@OneToOne
+//	private Profile profile;
+//	
+//	@OneToMany(mappedBy = "user")
+//	private List<Post> posts = new ArrayList<>();
+//	
+//	@ManyToMany
+//	@JoinTable(
+//			name = "user_group",
+//			joinColumns = @JoinColumn(name="user_id"),
+//			inverseJoinColumns = @JoinColumn(name="group_id")
+//	)
+//	private Set<Group> groups = new HashSet<>();
 }

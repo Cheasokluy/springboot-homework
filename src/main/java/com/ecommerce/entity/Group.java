@@ -23,6 +23,6 @@ public class Group {
 	
 	private String name;
 	
-	@ManyToMany(mappedBy = "groups")
-	private Set<User> users = new HashSet<>();
+//	@ManyToMany(mappedBy = "groups")
+//	private Set<User> users = new HashSet<>();
 }

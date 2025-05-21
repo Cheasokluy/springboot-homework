@@ -20,6 +20,6 @@ public class Post {
 	
 	private String title;
 	
-	@ManyToOne
-	private User user;
+//	@ManyToOne
+//	private User user;
 }
